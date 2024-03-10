@@ -15,10 +15,10 @@
     font-weight: 400;
 }
 
-}
+
 @font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-family: Roboto_Condensed;
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
     font-weight: 400;
 }
 

@@ -7,5 +7,95 @@ p {
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1130px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.site_header {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.site_header_line {
+    width: 100%;
+    height: 5px;
+    background-color: #FF7500;
+}
+.d.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.logo-image {
+    width: 38px;
+    height: 59px;
+}
+
+.logo-name {
+    font-family: "Roboto_Condensed";
+    font-size: 32px;
+    font-weight: 700;
+    color: #252420;
+}
+
+.logo-name::after {
+    content: "nashr";
+    color: #FF7500;
+}
+
+.nav {
+    display: flex;
+    column-gap: 32px;
+}
+
+.nav-link {
+    color: #000;
+    font-family: "Roboto_Condensed";
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: #FF7500;
+
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #FF7500;
+    transition: .5s;
+
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
