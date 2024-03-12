@@ -38,7 +38,7 @@ ul {
     height: 5px;
     background-color: #FF7500;
 }
-.d.flex {
+.d-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
